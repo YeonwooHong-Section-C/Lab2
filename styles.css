@@ -1,0 +1,88 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.header-grid-container {
+    background-color: bisque;
+    padding: 0.1%;
+  }
+
+.header-grid-item {
+    background-color: lavender;
+    border: 1px solid darkgray;
+    padding: 1%;
+    margin: 1%;
+    font-size: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+  
+.nav-flex-container {
+    display: flex;
+    background-color: red;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+}
+
+.nav-flex-item {
+    background-color: deeppink;
+    border: 1px solid darkgray;
+    padding: 2%;
+    margin: 1%;
+    font-size: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.main-flex-container {
+    display: flex;
+    background-color: green;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+}
+
+.main-flex-item {
+    background-color: greenyellow;
+    border: 1px solid darkgray;
+    padding: 18%;
+    margin: 1%;
+    font-size: 20px;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.aside-flex-container {
+    display: flex;
+    float: left;
+    background-color: yellow;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.aside-flex-item {
+    background-color: salmon;
+    border: 1px solid darkgray;
+    padding: 152px;
+    margin: 1%;
+    font-size: 20px;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.footer-grid-container {
+    background-color: bisque;
+    padding: 0.1%;
+  }
+
+.footer-grid-item {
+    background-color: lavender;
+    border: 1px solid darkgray;
+    padding: 1%;
+    margin: 1%;
+    font-size: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
